@@ -1,7 +1,8 @@
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
-import logo from 'figma:asset/1a2b70abb9f5f361ad9a19ec489af48c7e124642.png';
+// import logo from 'figma:asset/1a2b70abb9f5f361ad9a19ec489af48c7e124642.png';
+const logo = '/logo.png';
 
 export function Layout({ children }: { children: React.ReactNode }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
